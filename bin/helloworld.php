@@ -1,2 +1,3 @@
 <?php
-echo HelloWorld::run();
+require __DIR__.'/../vendor/autoload.php';
+echo \Helloworld\HelloWorld::run();
